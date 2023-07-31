@@ -1,4 +1,3 @@
-import Heading from '@/components/Heading'
 import Button from '@/components/Button'
 
 import initialImage from '@/../public/initial-image.png'

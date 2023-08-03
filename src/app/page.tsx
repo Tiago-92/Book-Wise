@@ -1,9 +1,5 @@
-import EvaluationCard from '@/components/EvaluationCard'
+// import EvaluationCard from '@/components/EvaluationCard'
 
 export default function Home() {
-  return (
-    <div>
-      <EvaluationCard />
-    </div>
-  )
+  return <div></div>
 }

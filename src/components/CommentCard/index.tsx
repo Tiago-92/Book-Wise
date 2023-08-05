@@ -6,7 +6,7 @@ import theHobbit from '../../../images/o-hobbit.png'
 import profile from '../../../images/profile.png'
 import { Star } from '@phosphor-icons/react'
 
-export default function EvaluationCard() {
+export default function CommentCard() {
   return (
     <div className="w-[38rem] h-[17.5rem] bg-gray-7# px-6 py-6 rounded-lg">
       <header className="flex justify-between">

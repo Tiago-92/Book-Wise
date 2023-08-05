@@ -23,8 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={nunito.className}>{children}</body>
-      <Sidebar />
+      <body className={nunito.className}>
+        <div className="flex">
+          <Sidebar />
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

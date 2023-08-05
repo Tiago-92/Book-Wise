@@ -1,10 +1,9 @@
 import { Binoculars, ChartLineUp, SignOut, User } from '@/../public/icons'
-import Image from 'next/image'
-
-import Link from 'next/link'
-
 import bgSidebar from '@/../images/sidebar-background.png'
 import logo from '@/../images/logo.png'
+
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Sidebar() {
   return (

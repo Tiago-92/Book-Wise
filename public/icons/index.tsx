@@ -1,5 +1,12 @@
 'use client'
 
-import { ChartLineUp, Binoculars, User, SignOut } from '@phosphor-icons/react'
+import {
+  ChartLineUp,
+  Binoculars,
+  User,
+  SignOut,
+  CaretRight,
+  Star,
+} from '@phosphor-icons/react'
 
-export { ChartLineUp, Binoculars, User, SignOut }
+export { ChartLineUp, Binoculars, User, SignOut, CaretRight, Star }

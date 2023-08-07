@@ -2,6 +2,7 @@ import { ChartLineUp, CaretRight } from '@/../public/icons/'
 
 import BookCard from '@/components/BookCard'
 import CommentCard from '@/components/CommentCard'
+import DetailsProfile from '@/components/DetailsProfile'
 import Link from 'next/link'
 
 export default function Home() {
@@ -26,7 +27,7 @@ export default function Home() {
       </div>
 
       <section className="flex flex-col gap-[0.75rem] w-full mt-[9.38rem] ml-[4rem]">
-        <div className="flex justify-between">
+        {/* <div className="flex justify-between">
           <span className="text-sm text-gray-1#">Livros populares</span>
           <Link
             className="flex items-center gap-[0.5rem] text-sm text-purple-1#"
@@ -38,7 +39,8 @@ export default function Home() {
         </div>
         <BookCard />
         <BookCard />
-        <BookCard />
+        <BookCard /> */}
+        <DetailsProfile />
       </section>
     </main>
   )

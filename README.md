@@ -1,21 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Bookwise
 
-## Getting Started
+Organize, marque e avalie seu livros preferidos atráves de um interface atraente e intuitiva.
 
-Primeiro, faça a instalação das dependências:
+![Captura de tela de 2023-08-07 10-49-26](https://github.com/Tiago-92/Book-Wise/assets/99975837/d70235c6-6612-4bf9-9ffd-d5b12199def1)
+
+## Principais Tecnologias
+
+NextJS, TypeScript, Taildwind CSS, NodeJS e Prisma
+
+## Iniciando o Projeto
+
+Primeiro, clone o projeto;
+
+Em seguida, instale as dependẽncias:
 
 ```bash
 npm install
 ```
-
-Depois, execute o servidor de desenvolvimento: 
+Agora inicie o servidor de desenvolvimento com:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Por fim, você pode acessar [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar o projeto em execução.

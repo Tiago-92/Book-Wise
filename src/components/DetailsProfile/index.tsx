@@ -50,7 +50,9 @@ export default function DetailsProfile() {
           <div className="flex">
             <BookmarkSimple className="w-8 h-8 text-green-1#" />
             <div className="flex flex-col ml-[1.25rem]">
-              <span className="text-base font-bold text-gray-2#">Computação</span>
+              <span className="text-base font-bold text-gray-2#">
+                Computação
+              </span>
               <span className="text-base text-gray-3#">
                 Categoria mais lida
               </span>

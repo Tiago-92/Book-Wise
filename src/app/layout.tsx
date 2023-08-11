@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={nunito.className}>
         <div className="flex">
-          <Sidebar />
+          {/* <Sidebar /> */}
           {children}
         </div>
       </body>

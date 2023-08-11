@@ -1,24 +1,21 @@
-import Image from 'next/image'
+'use client'
 
-import histoyBook from '@/../images/historias-extraordinarias.png'
-import { Star } from '@/../public/icons/'
+import Image from 'next/image'
+import theHobbit from '../../../images/o-hobbit.png'
+import { Star } from '@phosphor-icons/react'
 
 export default function BookCard() {
   return (
-    <div className="flex gap-[1.25rem] w-[20.25rem] h-[8.12rem] rounded-lg px-[1rem] py-[1.25rem] bg-gray-7#">
-      <Image
-        src={histoyBook}
-        width={64}
-        height={94}
-        alt="Livro O Fim da Eternidade"
-      />
-      <div className="flex flex-col">
-        <cite className="text-base font-bold text-gray-1#">
-          O Fim da Eternidade
-        </cite>
-        <span className="text-sm text-gray-4#">Isaac Asimov</span>
+    <div className="md:flex md:flex-row md:gap-[] w-[220px] md:w-[24rem] bg-gray-7# rounded-md py-[1.25rem] px-[1.25rem]">
+      <div className="float-left md:float-none">
+        <Image src={theHobbit} alt="" width={64} height={94} />
+      </div>
 
-        <div className="flex gap-[0.2rem] mt-[2.12rem]">
+      <div className="flex flex-col ml-[90px] md:ml-0">
+        <span className="text-base text-gray-1#">A Revolução dos Bichos</span>
+        <span className="text-sm text-gray-4#">George Orwell</span>
+
+        <div className="flex gap-1 mt-[0.5rem] md:mt-[1rem]">
           <Star className="text-purple-1#" />
           <Star className="text-purple-1#" />
           <Star className="text-purple-1#" />

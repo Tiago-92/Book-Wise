@@ -18,7 +18,7 @@ export default function Sidebar() {
           src={logo}
           alt="logo com um ícone de um livro e um coração,ao lado está escrito BookWise"
         />
-        <div className="flex flex-col gap-[1rem] mt-16">
+        <nav className="flex flex-col gap-[1rem] mt-16">
           <Link
             className="
               flex gap-[0.75rem] items-center pl-[0.75rem] text-base text-gray-4# hover:text-gray-1# 
@@ -49,7 +49,7 @@ export default function Sidebar() {
             <User />
             Perfil
           </Link>
-        </div>
+        </nav>
       </section>
 
       <footer className="absolute bottom-0 mb-[1.5rem]">

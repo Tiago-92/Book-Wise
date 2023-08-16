@@ -23,6 +23,11 @@ module.exports = {
       'gray-7#': '#181C2A',
       'gray-8#': '#0E1116',
     },
+    extend: {
+      boxShadow: {
+        '3xl': '0 0 10px #8D95AF',
+      },
+    },
   },
   plugins: [],
 }

@@ -6,7 +6,7 @@ import { Star } from '@phosphor-icons/react'
 
 export default function BookCard() {
   return (
-    <div className="md:flex md:flex-row md:gap-[] w-[220px] md:w-[24rem] bg-gray-7# rounded-md py-[1.25rem] px-[1.25rem]">
+    <div className="md:flex md:flex-row md:gap-[1.25rem] w-[220px] md:w-[24rem] bg-gray-7# rounded-md py-[1.25rem] px-[1.25rem]">
       <div className="float-left md:float-none">
         <Image src={theHobbit} alt="" width={64} height={94} />
       </div>

@@ -13,6 +13,7 @@ import {
   BookmarkSimple,
   X,
   List,
+  MagnifyingGlass,
 } from '@phosphor-icons/react'
 
 export {
@@ -28,4 +29,5 @@ export {
   BookmarkSimple,
   X,
   List,
+  MagnifyingGlass,
 }

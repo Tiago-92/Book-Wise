@@ -70,9 +70,9 @@ export default function Home() {
           </Link>
         </div>
         <div className="w-[320px] md:w-full flex overflow-x-auto md:flex-col gap-[1rem]">
-          <BookCard />
-          <BookCard />
-          <BookCard />
+          <BookCard width="24rem" />
+          <BookCard width="30" />
+          <BookCard width="20" />
         </div>
         {/* <DetailsProfile /> */}
       </section>

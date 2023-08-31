@@ -1,3 +1,5 @@
+'use client'
+
 import Button from '@/components/Button'
 
 import initialImage from '@/../public/initial-image.png'

@@ -4,9 +4,16 @@ import Image from 'next/image'
 import theHobbit from '../../../images/o-hobbit.png'
 import { Star } from '@phosphor-icons/react'
 
-export default function BookCard() {
+interface BookCardProps {
+  width?: string
+  height?: string
+}
+
+export default function BookCard({ width, height }: BookCardProps) {
   return (
-    <div className="md:flex md:flex-row md:gap-[1.25rem] w-[220px] md:w-[24rem] bg-gray-7# rounded-md py-[1.25rem] px-[1.25rem]">
+    <div
+      className={`md:flex md:flex-row md:gap-[1.25rem] w-${width} md:w-[${width}] bg-gray-7# rounded-md py-[1.25rem] px-[1.25rem]`}
+    >
       <div className="float-left md:float-none">
         <Image src={theHobbit} alt="" width={64} height={94} />
       </div>

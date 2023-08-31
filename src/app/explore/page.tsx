@@ -5,7 +5,7 @@ import BookCard from '@/components/BookCard'
 
 export default function Explore() {
   return (
-    <div className="flex w-full">
+    <div className="flex w-full h-full">
       <Sidebar />
       <div className="flex flex-col w-full mr-24 ml-[5.94rem]">
         <header className="flex justify-between  mt-[4.5rem]">
@@ -31,8 +31,18 @@ export default function Explore() {
           <Tag title="Suspense" />
         </section>
 
-        <section>
+        <section className="flex flex-wrap gap-[1.25rem] w-[62.50rem] h-full">
           <BookCard />
+          <BookCard />
+          <BookCard />
+
+          <BookCard width="19.92rem" />
+          <BookCard width="19.92rem" />
+          <BookCard width="19.92rem" />
+
+          <BookCard width="19.92rem" />
+          <BookCard width="19.92rem" />
+          <BookCard width="19.92rem" />
         </section>
       </div>
     </div>

@@ -2,6 +2,8 @@
 
 import Button from '@/components/Button'
 
+import { signIn } from 'next-auth/react'
+
 import initialImage from '@/../public/initial-image.png'
 import Image from 'next/image'
 import googleIcon from '@/../public/google-icon.svg'
@@ -10,6 +12,20 @@ import rocketIcon from '@/../public/rocket-icon.svg'
 import bookWiseIcon from '@/../public/book-wise-icon.svg'
 
 export default function Login() {
+  const URL_REDIRECT = 'http://localhost:3000'
+
+  const handleClickButtonGoogle = () => {
+    signIn('google', {
+      callbackUrl: URL_REDIRECT,
+    })
+  }
+
+  const handleClickButtonGitHub = () => {
+    signIn('github', {
+      callbackUrl: URL_REDIRECT,
+    })
+  }
+
   return (
     <main className="max-h-full">
       <div className="lg:flex items-center gap-[14.12rem] mt-[1.25rem] mx-[1.25rem]">
@@ -32,10 +48,12 @@ export default function Login() {
 
           <div className="flex flex-col gap-2 mt-10">
             <Button
+              onClick={handleClickButtonGoogle}
               title="Entrar com Google"
               icon={<Image src={googleIcon} alt="" />}
             />
             <Button
+              onClick={handleClickButtonGitHub}
               title="Entrar com GitHub"
               icon={<Image src={gitHubIcon} alt="" />}
             />
